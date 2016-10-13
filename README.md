@@ -18,4 +18,10 @@ DONE *Find the biggest prime divisor of a number<br />
 #IDEAS AND SHIT
 *we can carry numerator and denominator around in an array. would be easy to reach and manipulate in functions<br />
 *we should also plan for the cases where numerator is bigger than the denominator<br />
+*** Lets just do 
+x=0;   //x is the times we subtract the numerator by the denominator, this way we get n/d = integer+some n*/d where n*<d 
+while(n>d)
+x++
+n-d
+
 *we can also make it so that when the program is called like "repetitionFinder num den" in the command line, it automatically outputs the output<br />
